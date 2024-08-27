@@ -9,9 +9,11 @@ import Charts from "./charts/Charts";
 function App() {
   return (
     <>
-      <div className="text-center bg-slate-100">
+      <div className="text-center">
+        <div>
         <Card />
         <Charts />
+        </div>
       </div>
     </>
   );
